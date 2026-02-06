@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "codding-sesion-3",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

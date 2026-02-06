@@ -1,0 +1,20 @@
+meta {
+  name: Logout
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8000/logout
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MGIzMTZlNS00MDI4LTRiMWEtODVjMS03MGNmN2ZjYTAzMTAiLCJqdGkiOiI0MjYyZGQ3Ni03OWY1LTQ5YWItYjljYS1kZGExZmMyMTUwMTUiLCJ0eXBlIjoiYWNjZXNzIiwiaWF0IjoxNzcwNDA0NzgyLCJleHAiOjE3NzA0MDQ4NDJ9.ceAIDzdtAdCYmyZ_3rAmvxqY9m1UIFhA7uabMS4-vNs
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
