@@ -4,7 +4,15 @@ Sıfırdan kendi **auth (kimlik doğrulama)** sistemini kurmak isteyenler için 
 
 ---
 
-## 🗺 Rehber Adımları
+## 🎬 Önce denemek istiyorum
+
+Uygulamayı hiç bilmeden çalıştırıp Swagger ile test etmek ve **arkadaki mantık/algoritmayı** okumak istersen:
+
+👉 **[Adım Adım Başlangıç Rehberi](../../docs/adim_adim_baslangic_rehberi.md)** — 10 adım + her adımda hash, JWT ve kara liste açıklaması.
+
+---
+
+## 🗺 Rehber Adımları (Kod ile inşa)
 
 | # | Konu | Açıklama |
 |---|------|----------|
@@ -25,6 +33,15 @@ Sıfırdan kendi **auth (kimlik doğrulama)** sistemini kurmak isteyenler için 
 - FastAPI ile kayıt, giriş, çıkış ve token yenileme uç noktalarını
 
 öğrenmiş olacaksın.
+
+---
+
+## 📚 Bundan sonra
+
+- [API Dokümantasyonu](../../docs/api_dokumantasyonu.md) — Tüm endpoint’ler ve örnekler  
+- [Mimari Yapı](../../docs/mimari_yapi.md) — Dosya düzeni ve veri akışı  
+- [Güvenlik Rehberi](../../docs/guvenlik_rehberi.md) — Şifre, JWT, token iptali  
+- [Dokümantasyon İndeksi](../../docs/README.md) — Tüm dökümanların listesi  
 
 ---
 
